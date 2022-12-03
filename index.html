@@ -6,42 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./scss/main.css">
     <title>Título</title>
 </head>
 <body>
 
     <!-- nav -->
-    <nav class="navbar navbar-dark navbar-expand-lg bg-dark c-navbar">
+    <nav class="navbar navbar-dark navbar-expand-lg ui-navbar">
         <div class="container-lg">
-        <a class="navbar-brand" href="#">LOGO</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+            <a class="navbar-brand" href="/">Universidad de Ingenieria</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="./gallery.html">Galería</a>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Carreras</a>
+                <ul class="dropdown-menu ui-dropdown">
+                    <li><a href="./carreras/mecanica.html" class="dropdown-item ui-dropdown-item">Ingenieria Mecánica</a></li>
+                    <li><a href="./carreras/civil.html" class="dropdown-item ui-dropdown-item">Ingenieria Civil</a></li>
+                    <li><a href="./carreras/electrica.html" class="dropdown-item ui-dropdown-item">Ingenieria Electrica</a></li>
+                    <li><a href="./carreras/sistemas.html" class="dropdown-item ui-dropdown-item">Ingenieria De Sistemas</a></li>
+                    <li><a href="./carreras/naval.html" class="dropdown-item ui-dropdown-item">Ingenieria Naval</a></li>
+                </ul>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled">Noticias</a>
+                <a class="nav-link" href="./cursos.html">Cursos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled">Contacto</a>
+            <a class="nav-link" href="./contacto.html">Contacto</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled">Nosotros</a>
+                <a class="nav-link" href="./conocenos.html">Conocenos</a>
             </li>
             </ul>
-        </div>
+            </div>
         </div>
     </nav>
     <!-- /nav -->
 
     <!-- hero -->
     <div class="container">
-    <p class="text-center fs-1 pt-5">Lorem ipsum</p>
-    <p class="text-center fs-4 pb-5">dolor sit amet consectetur adipisicing elit. Unde in explicabo dolor tenetur esse ut sed</p>
+    <h1 class="text-center">Educando a la siguiente generación de ingenieros</h1>
     </div>
     <!-- /hero -->
 

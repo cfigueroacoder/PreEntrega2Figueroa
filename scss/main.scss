@@ -1,0 +1,44 @@
+@import 'vars';
+@import 'media';
+
+body {
+    background-color: $ui_bg;
+}
+
+.ui-navbar {
+    background-color: $ui_base;
+}
+
+.ui-dropdown {
+    background-color: $ui_base;
+}
+
+.ui-dropdown-item {
+    background-color: $ui_base;  
+    color:white;
+    &:hover {
+        background-color: $ui_accent;
+    }
+}
+
+.carousel {
+    width: 40vw;
+    margin: auto;
+}
+
+.img-gallery {
+    width: 20vw;
+    transition: all 0.5s;
+    &:hover {
+        transform:scale(130%);
+    }
+}
+
+.home-bottom-text {
+    width: 40vw;
+}
+
+.aboutus-info {
+    width: 65vw;
+}
+

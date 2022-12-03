@@ -1,0 +1,19 @@
+@media (min-width: $desktop) {
+    .gallery-container {
+        max-width: 90vw;
+    }
+}
+
+@media (max-width: $mobile) {
+    .img-gallery {
+        width: 40vw;
+    }
+
+    .carousel {
+        width: 80vw;
+    }
+
+    .home-bottom-text {
+        width: 70vw;
+    }
+}
