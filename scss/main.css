@@ -18,6 +18,16 @@ body {
   background-color: #a9d6c1;
 }
 
+.ui-link {
+  color: #006434;
+  text-decoration: none;
+  font-weight: 700;
+}
+.ui-link:hover {
+  color: #02b15c;
+  text-decoration: underline;
+}
+
 .ui-navbar {
   background-color: #006434;
 }

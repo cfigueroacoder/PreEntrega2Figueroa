@@ -5,6 +5,18 @@ body {
     background-color: $ui_bg;
 }
 
+.ui-link {
+    color: $ui_base;
+    text-decoration: none;
+    font: {
+        weight:700;
+    }
+    &:hover {
+        color: $ui_accent;
+        text-decoration: underline;
+    }
+}
+
 .ui-navbar {
     background-color: $ui_base;
 }
