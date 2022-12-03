@@ -34,6 +34,10 @@ body {
   background-color: #02b15c;
 }
 
+.ui-img-grade {
+  width: 40vw;
+}
+
 .carousel {
   width: 40vw;
   margin: auto;
