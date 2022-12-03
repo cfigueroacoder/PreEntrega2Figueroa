@@ -24,7 +24,7 @@ body {
   font-weight: 700;
 }
 .ui-link:hover {
-  color: #02b15c;
+  color: #00994f;
   text-decoration: underline;
 }
 
@@ -41,15 +41,23 @@ body {
   color: white;
 }
 .ui-dropdown-item:hover {
-  background-color: #02b15c;
+  background-color: #00994f;
 }
 
 .ui-img-grade {
   width: 40vw;
 }
 
+.ui-img-icon {
+  width: 40px;
+}
+
+.ui-contact-info {
+  max-width: 400px;
+}
+
 .carousel {
-  width: 40vw;
+  width: 60vw;
   margin: auto;
 }
 
