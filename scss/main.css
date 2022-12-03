@@ -35,7 +35,6 @@ body {
 .ui-dropdown {
   background-color: #006434;
 }
-
 .ui-dropdown-item {
   background-color: #006434;
   color: white;
@@ -52,16 +51,23 @@ body {
   width: 40px;
 }
 
-.ui-tecnicatura-img {
-  width: 50vw;
+.ui-tecnicatura {
+  max-width: 1200px;
+}
+.ui-tecnicatura img {
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+.ui-tecnicatura h3 {
+  text-align: center;
+}
+.ui-tecnicatura p {
+  margin: auto;
 }
 
 .ui-contact-info {
   max-width: 400px;
-}
-
-.ui-tecnicaturas {
-  max-width: 1200px;
 }
 
 .carousel {

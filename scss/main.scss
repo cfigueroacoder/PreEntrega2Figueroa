@@ -23,13 +23,13 @@ body {
 
 .ui-dropdown {
     background-color: $ui_base;
-}
 
-.ui-dropdown-item {
-    background-color: $ui_base;  
-    color:white;
-    &:hover {
-        background-color: $ui_accent;
+    &-item {
+        background-color: $ui_base;  
+        color:white;
+        &:hover {
+            background-color: $ui_accent;
+        }
     }
 }
 
@@ -41,16 +41,26 @@ body {
     width: 40px;
 }
 
-.ui-tecnicatura-img {
-    width: 50vw;
+.ui-tecnicatura {    
+    max-width: 1200px;
+
+    img {
+        margin: auto;
+
+        max-width: 100%;
+        height: auto;
+    }
+
+    h3 {
+        text-align: center;
+    }
+    p {
+        margin: auto;
+    }
 }
 
 .ui-contact-info {
     max-width: 400px;
-}
-
-.ui-tecnicaturas {
-    max-width: 1200px;
 }
 
 .carousel {
